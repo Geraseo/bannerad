@@ -1,0 +1,30 @@
+// import mixins
+@import "./defaults";
+@import "./mixins";
+
+// vars go here with $
+$pcolor: red;
+$pcolor2: blue;
+
+.container {
+  height: 50%;
+  width: 50% !important;
+  border: 3px solid red;
+  @include flexcenter();
+
+  p {
+    background-color: $pcolor;
+    // pseudo stuff su &
+    &:hover {
+      background-color: $pcolor2;
+    }
+  }
+}
+
+// _mixins.scss example
+
+// @mixin flexcenter {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }

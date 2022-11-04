@@ -1,0 +1,39 @@
+//  defaults
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+// custom classes
+.flexendctr {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.centeris {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bred {
+  border: 3px solid red !important;
+}
+.bgreen {
+  border: 3px solid rgb(0, 255, 0) !important;
+}
+.byellow {
+  border: 3px solid yellow !important;
+}
+.bpink {
+  border: 3px solid rgb(255, 0, 212) !important;
+}
+.borange {
+  border: 3px solid orange !important;
+}
+.bblue {
+  border: 3px solid blue !important;
+}
+.bcyan {
+  border: 3px solid rgb(0, 255, 247) !important;
+}
